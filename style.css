@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+    
+.header__top{
+    background: url(./images/Panteon-1170_01.jpg) no-repeat center center/ cover;
+}
+.header__top__top .col-12{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo h5{
+  width: 100px;
+  color: aliceblue;
+  margin: 20px;
+}
+.header__number{
+    display: flex;
+    justify-content: space-between;
+}
+.header__number h5{
+    margin: 9px;
+    color: aliceblue;
+}
+.header__top__bottom p{
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+.header__top__bottom h1{
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    color:aliceblue;
+    margin: 0;
+    padding: 0;
+    
+}
+.header__top__bottom iframe{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.header__bottom h2{
+    color:rgb(173, 16, 105);
+}
+.header__bottom{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.main__top{
+    background:url(./images/Panteon-1170_03.jpg) no-repeat center center /cover;
+}
+.main__top h1{
+    color:rgb(173, 16, 105);
+    font-size: 60px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.main__top .col-5{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main__top .col-5 p{
+   margin-bottom: 120px;
+}
+.main__bottom h5{
+    color:rgb(173, 16, 105);
+}
+.main__bottom .col-4{
+    border: 10px solid rgb(173, 16, 105);
+    height: 360px;
+    width: 310px;
+    margin-left: 100px;
+   
+}
+.main__bottom{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main__bottom img{
+    position: absolute;
+    height: 360px;
+    width: 330px;
+    margin-top: 30px;
+    margin-left: 710px;
+}
+.main__bottom h1{
+    font-size: 50px;
+    color: rgb(173, 16, 105);
+    margin-left: 100px;
+}
+.section__top{
+    background: url(./images/Panteon-1170_06.jpg) no-repeat  center center / cover;
+    margin-top: 30px;
+    padding-bottom: 50px;
+   
+}
+section{
+    position: relative; 
+    padding-top: 10px;
+}
+section img{
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.section__top h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:aliceblue;
+}
+.section__top h6{
+    margin-bottom: 30px;
+}
+.section__top p{
+    font-size: 20px;
+}
+.section__top button{
+    padding: 20px 40px;
+    border:none;
+    border-radius: 30px;
+    background:white;
+    box-shadow: 0 0 10px 10px white;
+    margin-left: 20px;
+}
+.section__top button a{
+    text-decoration: none;
+    color:black;
+}
+.section__top p input{
+    background:none;
+    border: none;
+}
+.section__bottom{
+    background:url(./images/Panteon-1170_09.jpg) no-repeat center center /cover;
+    margin-top: 200px;
+}
+.section__bottom__top h1{
+    color: aliceblue;
+    font-size: 56px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.section__bottom__bottom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section__bottom__bottom p{
+    color:aliceblue;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.section__bottom__bottom h4{
+   color:aliceblue; 
+}
+.footer__top h1{
+    color:rgb(173, 16, 105);
+    margin: 100px 0 50px 100px;
+}
+.footer__top button{
+    padding: 20px 40px;
+    background:rgb(173, 16, 105);
+    border:none;
+    border-radius: 40px;
+}
+.footer__top button a{
+    text-decoration: none;
+    color:black;
+}
+.footer__bottom{
+    background:url(./images/Panteon-1170_01.jpg) no-repeat center center/cover;
+}
+.footer__bottom h1{
+    margin: 100px 0 50px 100px;
+    padding-top: 100px;
+    color:aliceblue;
+    font-size: 60px;
+}
+.footer__bottom__top form{
+    background:url(./images/Panteon-1170_12.jpg) no-repeat center center /cover;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.footer__bottom__top form h3{
+    margin: 70px 0 40px 60px;
+}
+.footer__bottom__top form input{
+    width: 300px;
+    margin-left: 50px;
+    background:none;
+    border: none;
+    margin-bottom: 30px;
+}
+.footer__bottom__top form button{
+    width: 200px;
+    margin-left: 100px;
+    padding: 20px 40px ;
+    border:none;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px 10px white;
+}
+.footer__bottom__top .col-7 p{
+    color:aliceblue;
+}
+.footer__bottom__top .col-7 ul li a{
+    color:aliceblue;
+   
+}
+.footer__bottom__top .col-7 ul{
+    margin-top: 50px;
+}
+.footer__bottom__bottom{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.footer__bottom__bottom .col-4 .logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__bottom__bottom .col-4 .logo h5{
+  width: 100px;
+  color: aliceblue;
+  margin: 20px;
+}
+  .footer__bottom__bottom .col-4 ul li a{
+    color:aliceblue;
+  }
+  .footer__bottom__bottom .col-4 ul{
+    margin-top: 30px;
+  }
+  .footer__bottom__bottom .col-4 .number svg{
+    background:dodgerblue;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  .footer__bottom__bottom .col-4 .number{
+    display: flex;
+  }
+  .footer__bottom__bottom .col-4 .number p{
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+
